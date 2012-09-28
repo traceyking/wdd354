@@ -1,0 +1,59 @@
+body {
+	width:100%;
+	background-color:#88A2C8;
+	font:Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	line-height:1.5;
+	align: 0, auto;
+}
+
+
+#main {
+	align: 0, auto;
+	width:90%;
+	margin: 20px;
+	padding:20px;
+	
+}
+
+header{
+	font-size:18px;
+	align: 0, auto;
+}
+
+
+#intent, #analysis, #audience {
+	width:80%;
+	background:#666;
+	border: 4px #FC6 solid;
+	align; 0, auto;
+	padding:20px;
+	margin:20px;
+}
+
+a {
+	color:#339;
+	font-size:18px;
+}
+
+#column {
+	background-color:#6C8894;
+	border:3px #333399 solid;
+	margin:0,auto;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 15px;
+	padding-top:15px;
+	
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+
+	-moz-column-gap: 1.250em; /*20px*/; 
+	-webkit-column-gap:1.250em; 
+	column-gap:1.250em;
+
+	-moz-column-rule:0.125em outset #BDBDBD;
+	-webkit-column-rule:0.125em outset #BDBDBD; 
+	column-rule:0.125em outset #BDBDBD;
+}
