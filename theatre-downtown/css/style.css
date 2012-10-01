@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+ nhtml, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
@@ -54,18 +54,7 @@ blockquote, q {
   }
 /*====== header and image starts below ===== */   
    
-header {
-	width:100%;
-	margin: auto;
-	background-color: rgb(255,255,255);
-}
 
-
-header img {
-	/*float: left;*/
-	width: 27.7721519%; /*219px/790px*/
-	padding: 2.531646%; /*20px*/
-}
 
 
 	
@@ -80,18 +69,18 @@ nav ul {
 
 
 nav li {
-	width: 19.047619%; /*100px/526*/
+
 	background-color: #333;
 	font-family: Yellowtail, cursive;
 	font-size: 1.375em; /*22px*/
 	font-color: #fff;
-	float: left;		
+	float:left;	
 }
 
 
 nav a:link{
 	text-decoration: none;
-	background: #c60;
+	background: #000;
 	display: block;
 	height: 1.875em; /*30px*/
 	line-height: 1.875em; /*30px*/
