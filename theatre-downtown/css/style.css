@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/*------------------------end MEYERS RESET-----------------------*/	
+
+.top:hover {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   color: #636163;
+   }
+.top:active {
+   border-top-color: #ff8d14;
+   background: #ff8d14;
+  }
+/*====== header and image starts below ===== */   
+   
+header {
+	width:100%;
+	margin: auto;
+	background-color: rgb(255,255,255);
+}
+
+
+header img {
+	/*float: left;*/
+	width: 27.7721519%; /*219px/790px*/
+	padding: 2.531646%; /*20px*/
+}
+
+
+	
+nav ul {
+	
+	width: 100%; /*531px/790px*/
+	margin: 0 auto; /*-5px/525*/
+	padding: 2.531646%; /*20px*/
+	list-style: none;
+	overflow: hidden;
+}
+
+
+nav li {
+	width: 19.047619%; /*100px/526*/
+	background-color: #333;
+	font-family: Yellowtail, cursive;
+	font-size: 1.375em; /*22px*/
+	font-color: #fff;
+	float: left;		
+}
+
+
+nav a:link{
+	text-decoration: none;
+	background: #c60;
+	display: block;
+	height: 1.875em; /*30px*/
+	line-height: 1.875em; /*30px*/
+	text-align: center;
+	color: #FFF;
+}
+
+	
+nav a:visited {
+	color: #FFF;
+	background-color: #C60;
+}
+
+
+nav a:hover {
+	color: #FFF;
+	background-color: #666;
+}
+
+
+nav a:active {
+	color: #999;
+	background-color: #FFF;
+}
+
+	
