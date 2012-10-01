@@ -60,7 +60,7 @@ blockquote, q {
 	
 nav ul {
 	
-	width: 100%; /*531px/790px*/
+	width: 75%; /*531px/790px*/
 	margin: 0 auto; /*-5px/525*/
 	padding: 2.531646%; /*20px*/
 	list-style: none;
@@ -91,19 +91,19 @@ nav a:link{
 	
 nav a:visited {
 	color: #FFF;
-	background-color: #C60;
+	background-color: #000;
 }
 
 
 nav a:hover {
 	color: #FFF;
-	background-color: #666;
+	background-color: #000;
 }
 
 
 nav a:active {
 	color: #999;
-	background-color: #FFF;
+	background-color: #000;
 }
 
 	
