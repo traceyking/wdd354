@@ -1,4 +1,4 @@
- nhtml, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
@@ -43,67 +43,6 @@ blockquote, q {
 
 /*------------------------end MEYERS RESET-----------------------*/	
 
-.top:hover {
-   border-top-color: #ffffff;
-   background: #ffffff;
-   color: #636163;
-   }
-.top:active {
-   border-top-color: #ff8d14;
-   background: #ff8d14;
-  }
-/*====== header and image starts below ===== */   
-   
 
 
 
-	
-nav ul {
-	
-	width: 75%; /*531px/790px*/
-	margin: 0 auto; /*-5px/525*/
-	padding: 2.531646%; /*20px*/
-	list-style: none;
-	overflow: hidden;
-}
-
-
-nav li {
-
-	background-color: #333;
-	font-family: Yellowtail, cursive;
-	font-size: 1.375em; /*22px*/
-	font-color: #fff;
-	float:left;	
-}
-
-
-nav a:link{
-	text-decoration: none;
-	background: #000;
-	display: block;
-	height: 1.875em; /*30px*/
-	line-height: 1.875em; /*30px*/
-	text-align: center;
-	color: #FFF;
-}
-
-	
-nav a:visited {
-	color: #FFF;
-	background-color: #000;
-}
-
-
-nav a:hover {
-	color: #FFF;
-	background-color: #000;
-}
-
-
-nav a:active {
-	color: #999;
-	background-color: #000;
-}
-
-	
