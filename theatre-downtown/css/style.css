@@ -57,11 +57,17 @@ body {
 
 	h1 {
   font-family: "ltc-broadway-engraved",serif;
+  color:#CF0;
+  font-size:1.5em;
+  text-align:center;
 }
 
 
 h2 {
   font-family: "lobster",serif;
+  color:#fff;
+  font-size:1.313em;
+  
 }
 
 	
