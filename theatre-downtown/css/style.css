@@ -43,6 +43,128 @@ blockquote, q {
 
 /*------------------------end MEYERS RESET-----------------------*/	
 
+body {
+	max-width: 960px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #26325b;
+	margin:auto;
+}
+	
+#container {
+	width: 920px;
+	margin:0, auto;
+}
+
+nav{
+	max-width:920px;
+	height: 30px;
+	margin:0, auto;
+	background-color:#03fc56;
+	font-family:Tahoma, Geneva, sans-serif;
+	font:#000;
+}
+	
+nav ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+nav li{
+	float:left;
+}
+
+nav a:link,a:visited{
+	display:block;
+	width:120px;
+	height: 22px;
+	font-weight:bold;
+	color:white;
+	text-shadow:2px 2px 4px #000000;
+	color:#FFFFFF;
+	background-color:#03fc56;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+
+}
+nav a:hover,nav a:active{
+	background-color:#333;
+}
+
+#cta{
+	width: 920px;
+	height: 100px;
+	background-color:#000;
+	color:#fff;
+}
+
+#main{
+	width:920;
+	padding:20px;
+	margin:0,auto;
+}
+
+table{
+	width:521px;
+	height: 354px;
+	background-color:#FFF;
+	margin:0,auto;
+	float:left;
+}
 
 
+td, th, tr{
+	padding:15px;
+	
+}
 
+#poster{
+	float:right;
+}
+aside{
+	height: 80px;
+	width: 240px;
+	background-color:#93bc9d;
+	color:#fff;
+	font-family:Tahoma, Geneva, sans-serif;
+	line-height:1.5;
+	font-size:.813em;
+	float:right;
+	border: 3px #000;
+	margin:10px;
+	padding:10px;
+	
+}
+
+#gallery{
+	clear:both;
+	
+}
+
+
+footer{
+	max-width:920px;
+	max-height:100px;
+	background-color:#000;
+	color:#6F0;
+}
+
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+footer li{
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	
+}
