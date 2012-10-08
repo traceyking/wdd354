@@ -232,8 +232,15 @@ footer li{
 	
 }
 
+form {
+	padding:20px;
+	line-height:2;
+	margin:0,auto;
+	text-align:left;
+}
+
 .button {
-	margin:50px;
+	margin:10px;
 	float:right;
 	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
