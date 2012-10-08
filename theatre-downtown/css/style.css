@@ -142,6 +142,28 @@ aside{
 
 #gallery{
 	clear:both;
+	background-color:#fff;
+	border:solid #000 5px;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+#gallery ul{
+	list-style-type:none;
+	margin:0, auto;
+	padding:0;
+	overflow:hidden;
+	
+}
+
+#gallery li{
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;
+	overflow:hidden;
+	margin-right:50px;
+	width:70px;
+	height:70px;
 	
 }
 
@@ -162,9 +184,31 @@ footer ul{
 
 footer li{
 	float:left;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:50px;
+	margin-right:50px;
 	margin-top:5px;
 	margin-bottom:5px;
+	font-size:.813em;
+	
+}
+
+#box_office, #join{
+	widows:920px;
+	height:427px;
+	margin: 20px;
+	background-color:#fff;
+}
+.why_join{
+	background-color:#32546b;
+	width:275px;
+	height:auto;
+	float:left;
+	box-shadow: 5px 5px 5px #888888;
+	padding-top:20px;
+	padding-bottom:50px;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:18px;
+	line-height:2.5;
 	
 }
