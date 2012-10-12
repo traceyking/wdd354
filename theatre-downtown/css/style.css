@@ -77,12 +77,12 @@ h2 {
 }
 
 nav{
-	max-width:920px;
+	max-width: 920px;
 	height: 30px;
-	margin:0, auto;
-	background-color:#03fc56;
-	font-family:Tahoma, Geneva, sans-serif;
-	font:#000;
+	margin: 0, auto;
+	background-color: #00FF00;
+	font-family: Tahoma, Geneva, sans-serif;
+	font: #000;
 }
 	
 nav ul
