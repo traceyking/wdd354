@@ -77,38 +77,48 @@ h2 {
 	margin:0, auto;
 }
 
-nav{
-	max-width: 100%; /*920px*/
+/*nav{
+	
 	height: 30px;
 	margin: 0, auto;
 	background-color: #00FF00;
 	font-family: Tahoma, Geneva, sans-serif;
 	font: #000;
-}
+}*/
 	
 nav ul
 {
-list-style-type:none;
-margin:0;
-padding:0;
-overflow:hidden;
+	width: 100%; /*920px*/
+	height: 1.875em; /*30px*/
+	list-style-type:none;
+	margin:0 auto;
+	overflow:hidden;
+	padding: 2.173913%; /*20px/920px*/
+	
+	
 }
 
 nav li{
-	float:left;
+	float: left;
+	width: 13.043478%; /*120px/920px*/
+	height: 1.875em; /*30px*/
+	background-color: #00FF00;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	overflow: hidden;
 }
 
 nav a:link,a:visited{
 	display:block;
 	width:13.043478%; /*120px/920px*/
-	height: 22px;
+	height: 1.875em; /*30px*/
 	font-weight:bold;
 	color:white;
 	text-shadow:2px 2px 4px #000000;
 	color:#FFFFFF;
 	background-color:#03fc56;
 	text-align:center;
-	padding:4px;
+	
 	text-decoration:none;
 
 }
@@ -117,7 +127,7 @@ nav a:hover,nav a:active{
 }
 
 #cta{
-	width: 920px;
+	width: 100%;  /* 920px*/
 	height: 100px;
 	background-color:#000;
 	color:#fff;
