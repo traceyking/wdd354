@@ -45,8 +45,8 @@ blockquote, q {
 
 body {
 	max-width: 960px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 2.173913%;  /*20px/960px*/
+	padding-left: 2.173913%;  /*20px/960px*/
 	background-color: #26325b;
 	margin-left: auto;
 	margin-right: auto;
@@ -73,12 +73,12 @@ h2 {
 
 	
 #container {
-	width: 920px;
+	max-width: 95.833333%; /*920px/960px*/
 	margin:0, auto;
 }
 
 nav{
-	max-width: 920px;
+	max-width: 100%; /*920px*/
 	height: 30px;
 	margin: 0, auto;
 	background-color: #00FF00;
@@ -100,7 +100,7 @@ nav li{
 
 nav a:link,a:visited{
 	display:block;
-	width:120px;
+	width:13.043478%; /*120px/920px*/
 	height: 22px;
 	font-weight:bold;
 	color:white;
