@@ -174,9 +174,9 @@ table{
         rgb(158,217,41) 87%
         );
     -webkit-border-top-left-radius:5px;
-    -webkit-border-top-right-radius:5px;
+    /*-webkit-border-top-right-radius:5px;*/
     -moz-border-radius:5px 5px 0px 0px;
-    border-top-left-radius:5px;
+    /*border-top-left-radius: */
     border-top-right-radius:5px;
 }
 
@@ -249,6 +249,8 @@ footer{
 	max-width:100%;
 	background-color:#000;
 	color:#fff;
+	clear:both;
+	
 }
 
 footer ul{
@@ -259,13 +261,13 @@ footer ul{
 }
 
 footer li{
-	float:left;
 	margin-left: 5.434783%; /*50px/920px*/
-	margin-right:5.434783%; /*50px/920px*/
-	margin-top:5px;
-	margin-bottom:5px;
-	font-size:.813em;
-	padding:5px;
+	margin-right: 5.434783%; /*50px/920px*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 0.813em;
+	padding: 5px;
+	float:left;	
 	
 }
 
@@ -449,6 +451,39 @@ form {
 	
 	}
 
+/*contribute styles start here-------------------*/
+
+
+#contribute{
+	color:#666;
+	background-color: #FFF;
+	border:2px solid #333;
+	border-radius: 4px;
+	padding:10px;
+	margin:auto;
+}
+
+.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+	margin: 0 auto;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 1px solid #999;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}
 
 
 /*======================Media Queries=================*/
