@@ -380,10 +380,10 @@ form {
 	margin-left: 20px;
 }
 	
-#tickets th { 
+#tickets th, h2 { 
 	padding:15px;
     color:#fff;
-	font-size:1em;
+	font-size:1.5em;
     text-shadow:1px 1px 1px #568F23;
     border:1px solid #93CE37;
     border-bottom:3px solid #9ED929;
@@ -458,10 +458,11 @@ form {
 #contribute{
 	color:#666;
 	background-color: #FFF;
-	border:2px solid #333;
+	border:4px solid #333;
 	border-radius: 4px;
 	padding:10px;
 	margin:auto;
+	line-height:1.5;
 }
 
 #finance{
@@ -470,6 +471,7 @@ form {
 }
 
 .table1{
+	width:100%;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 1em;
 	margin-bottom:20px;
