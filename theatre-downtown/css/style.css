@@ -272,7 +272,7 @@ footer li{
 	
 }
 
-#box_office, #join{
+#box_office, {
 	widows:100%; /*920px*/
 	height:26.688em; /*427px*/
 	margin-top: 20px;
@@ -284,6 +284,7 @@ footer li{
 	width: 29.891304%; /*275px;*/
 	height:auto;
 	float:left;
+	color:#fff;
 	box-shadow: 5px 5px 5px #888888;
 	padding-top:20px;
 	padding-bottom:50px;
@@ -294,16 +295,20 @@ footer li{
 	
 }
 
-form {
+#form {
 	padding:20px;
-	line-height:2;
+	line-height:2.5;
 	margin:0,auto;
 	text-align:left;
+	background-color:#fff;
+	float: right;
+	
+	
 }
 
 .button {
 	margin:10px;
-	float:right;
+	clear: both;
 	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
 	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
