@@ -78,7 +78,7 @@ h2 {
 }
 
 nav{
-	background-color:#0F0;}
+	background-color:#9CBC2C;}
 
 	
 nav ul
@@ -96,10 +96,11 @@ nav ul
 nav li{
 	float: left;
 	width: 13.043478%; /*120px/920px*/
-	background-color: #00FF00;
+	background-color: #9CBC2C;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 1em;
-	height:1.875em; /*30px*/
+	padding:5px;
+
 }
 
 nav a:link,a:visited{
@@ -108,13 +109,13 @@ nav a:link,a:visited{
 	font-weight:bold;
 	text-shadow:2px 2px 4px #000000;
 	color:#FFF;
-	background-color:#03fc56;
+	background-color:##9CBC2C;
 	text-align:center;
 	text-decoration:none;
 
 }
 nav a:hover,nav a:active{
-	background-color:#333;
+	background-color:#384313;
 
 }
 
@@ -200,7 +201,7 @@ tr{
 aside{
 	height: 8.695652%;
 	width: 15.000em;
-	background-color: #B9FFB7;
+	background-color: #B9CF6A;
 	color: #000;
 	font-family: "myriad-pro",sans-serif;
 	font-style: italic;
@@ -208,7 +209,8 @@ aside{
 	line-height: 1.5;
 	font-size: 0.813em;
 	float: right;
-	border: 3px #000;
+	border: 3px #fff;
+	border-radius:5px;
 	margin: 1.041667%;
 	padding: 1.086957%; /*10px/920px*/
 }
@@ -280,18 +282,20 @@ footer li{
 	background-color:#fff;
 }
 .why_join{
-	background-color:#32546b;
+	background-color:#fff;
 	width: 29.891304%; /*275px;*/
-	height:auto;
 	float:left;
-	color:#fff;
-	box-shadow: 5px 5px 5px #888888;
+	color:#384313;
+	box-shadow: 2px 2px 2px #888888;
 	padding-top:20px;
 	padding-bottom:50px;
 	padding-left:15px;
 	padding-right:15px;
 	font-size:18px;
 	line-height:2.5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	
 }
 
@@ -301,7 +305,7 @@ background: #9cbc2c;
 -webkit-border-radius: 5px;
 border-radius: 5px;
 padding: 20px;
-width: 400px;
+width: 460px;
 float:left;
 }
 
@@ -321,10 +325,7 @@ padding-bottom: 10px;
 text-shadow: 0 1px 1px #c0d576;
 }
 
-form#sign_up > fieldset > legend:before {
-content: "Step" counter(fieldsets) ": ";
-counter-increment: fieldsets;
-}
+
 
 form#sign_up fieldset fieldset legend {
 color: #111111;
@@ -400,6 +401,7 @@ display: block;
 font: 18px Georgia, "Times New Roman", Times, serif;
 letter-spacing: 1px;
 margin: auto;
+float:right;
 padding: 7px 25px;
 text-shadow: 0 1px 1px #000000;
 text-transform: uppercase;
