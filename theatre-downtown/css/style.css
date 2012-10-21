@@ -295,7 +295,45 @@ footer li{
 	
 }
 
-#form {
+form#sign_up {
+background: #9cbc2c;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+padding: 20px;
+width: 400px;
+float:left;
+}
+
+form#sign_up fieldset {
+border: none;
+margin-bottom: 10px;
+}
+form#sign_up fieldset:last-of-type {
+margin-bottom: 0;
+}
+
+form#sign_up legend {
+color: #384313;
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 10px;
+text-shadow: 0 1px 1px #c0d576;
+}
+
+form#sign_up > fieldset > legend:before {
+content: "Step " counter(fieldsets) ": ";
+counter-increment: fieldsets;
+}
+
+form#sign_up fieldset fieldset legend {
+color: #111111;
+font-size: 13px;
+font-weight: normal;
+padding-bottom: 0;
+}
+
+/*#form {
 	padding:20px;
 	line-height:2.5;
 	margin:0,auto;
