@@ -281,7 +281,7 @@ footer li{
 	margin-bottom:20px;
 	background-color:#fff;
 }
-.why_join{
+.why_join, #board{
 	background-color:#fff;
 	width: 29.891304%; /*275px;*/
 	float:left;
@@ -501,15 +501,15 @@ cursor: pointer;
 	margin-left: 20px;
 }
 	
-#tickets th, h2 { 
-	padding:15px;
-    color:#fff;
-	font-size:1.5em;
-    text-shadow:1px 1px 1px #568F23;
-    border:1px solid #93CE37;
-    border-bottom:3px solid #9ED929;
-    background-color:#9DD929;
-    background:-webkit-gradient(
+#tickets th, h2 {
+	padding: 10px;
+	color: #fff;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #568F23;
+	border: 1px solid #93CE37;
+	border-bottom: 3px solid #9ED929;
+	background-color: #9DD929;
+	background: -webkit-gradient(
         linear,
         left bottom,
         left top,
@@ -517,17 +517,17 @@ cursor: pointer;
         color-stop(0.51, rgb(139,198,66)),
         color-stop(0.87, rgb(158,217,41))
         );
-    background: -moz-linear-gradient(
+	background: -moz-linear-gradient(
         center bottom,
         rgb(123,192,67) 2%,
         rgb(139,198,66) 51%,
         rgb(158,217,41) 87%
         );
-    -webkit-border-top-left-radius:5px;
-    -webkit-border-top-right-radius:5px;
-    -moz-border-radius:5px 5px 0px 0px;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 
@@ -550,9 +550,10 @@ cursor: pointer;
 #notes{
 	width: 920px;
 	height: auto;
-	background-color: rgb(204,204,204);
+	background-color: rgb(255,255,255);
 	margin: 20px 0px 20px 0px;
 	padding: 10px;
+	line-height: 1.3;
 }
 
 	
@@ -627,6 +628,20 @@ caption{
 td .days{ 
 	text-align:left;
 	color:#9C0;
+}
+
+#about{
+	background-color:#B9CF6A;
+	line-height:1.5;
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:auto;
+	padding:10px;
+	
+	}
+	
+#board{
+	float:right;
+	margin-right: 20px;
 }
 /*======================Media Queries=================*/
 /*Tablet size to standard 960px (devices and browsers)*/
