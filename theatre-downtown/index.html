@@ -4,10 +4,36 @@
 		<meta charset="utf-8"/> <title>Theatre Downtown</title> 
 		<link rel="stylesheet" href="css/style.css">
         
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="nav.css">
+        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        
         <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
         
         <script type="text/javascript" src="//use.typekit.net/pkt6nsc.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 	</head>
 <body>
 
@@ -15,15 +41,17 @@
 
 
 <div id="container"> 
-						<nav>
-			<ul>
+						<nav class="clearfix">  
+    <ul class="clearfix">
 				<li> <a class="home" href="index.html">home</a></li>
 				<li> <a class="calendar" href="calender.html">calendar</a></li>
 				<li> <a class="box-office" href="box-office.html">box office</a></li>
 				<li> <a class="about" href="about.html">about us</a></li>
 				<li> <a class="join" href="join.html">join</a></li>
 				<li> <a class="contribute" href="contribute.html">contribute</a></li>
-			</ul>	
+			</ul>
+            
+            <a href="#" id="pull">Menu</a> 	
 			</nav>
 
 
@@ -115,7 +143,7 @@
 		</footer>
 	
 </div>
-
+</div>
     </div>	
 </body>
 </html>

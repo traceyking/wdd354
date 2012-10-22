@@ -1,35 +1,62 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 	<head> 
-		<meta charset="utf-8"/> <title>Theatre Downtown About</title> 
+		<meta charset="utf-8"/> <title>Theatre Downtown</title> 
+		<link rel="stylesheet" href="css/style.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="nav.css">
+        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         
         <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
         
-		<link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="//use.typekit.net/pkt6nsc.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 	</head>
-
-
 <body>
+
+
+
+
 <div id="container"> 
-			<nav>
-			<ul>
+						<nav class="clearfix">  
+    <ul class="clearfix">
 				<li> <a class="home" href="index.html">home</a></li>
 				<li> <a class="calendar" href="calender.html">calendar</a></li>
 				<li> <a class="box-office" href="box-office.html">box office</a></li>
 				<li> <a class="about" href="about.html">about us</a></li>
 				<li> <a class="join" href="join.html">join</a></li>
 				<li> <a class="contribute" href="contribute.html">contribute</a></li>
-			</ul>	
+			</ul>
+            
+            <a href="#" id="pull">Menu</a> 	
 			</nav>
-     <header>
-			<a href="index.html"><img src="images/logo.png" alt="escape back to the home page"></a> 
-			
-		</header>
+</header>
      </div>
 <div id="board">
-   <caption>Board of Directors</caption>
+   <h3>Board of Directors</h3>
 <ul>
         <li>Aaron Babcock</li>
         <li>Fran Hilgenberg </li>
@@ -51,9 +78,9 @@ Since that first production, Theatre Downtown has proven to be an invaluable cul
 <p>We shall accomplish this by: producing stimulating, entertaining, and thought-provoking productions/events for Central Florida audiences, providing a supportive environment in which local artists can experiment, develop and share their talents, and by maximizing the potential of the physical plant in order to provide creative possibilities for as many individuals as possible.
 
 </p>
- 
+ </div>
 
-<div>            
+          
 <footer>
 		<ul>
 			<li>TheatreDowntown.net</li>
@@ -62,7 +89,7 @@ Since that first production, Theatre Downtown has proven to be an invaluable cul
 			<li>&copy; 2012</li>
 		</ul>
 		</footer>            
-</div>			
+			
 </div>
 </body>
 </html>

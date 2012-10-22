@@ -1,27 +1,58 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 	<head> 
-		<meta charset="utf-8"/> <title>Theatre Downtown Contribute</title> 
+		<meta charset="utf-8"/> <title>Theatre Downtown</title> 
+		<link rel="stylesheet" href="css/style.css">
+        
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="nav.css">
+        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        
         <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
         
-		<link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="//use.typekit.net/pkt6nsc.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 	</head>
 <body>
+
+
+
+
 <div id="container"> 
-  <nav>
-			<ul>
+  <nav class="clearfix">  
+    <ul class="clearfix">
 				<li> <a class="home" href="index.html">home</a></li>
 				<li> <a class="calendar" href="calender.html">calendar</a></li>
 				<li> <a class="box-office" href="box-office.html">box office</a></li>
 				<li> <a class="about" href="about.html">about us</a></li>
 				<li> <a class="join" href="join.html">join</a></li>
 				<li> <a class="contribute" href="contribute.html">contribute</a></li>
-			</ul>	
+			</ul>
+            
+            <a href="#" id="pull">Menu</a> 	
 			</nav>
-            
-            
          <header>
 			<a href="index.html"><img src="images/logo.png" alt="escape back to the home page"></a> 
 			
@@ -38,7 +69,7 @@
 <p>Therefore, we rely on contributions from individuals and corporations who want  us to continue to produce live theatre. </p><br>
 
 <p>Besides contributing, our supporters can help by volunteering their time, donating office equipment and production necessities, and most important, by telling other members of our community about the fine and important work that goes on at Theatre Downtown.</p><br>
-    </div>
+  </div>
 <div id="finance">
  <h2>Financial Contributions</h2>
   
@@ -69,13 +100,13 @@
 
 
 <footer>
-		<ul>
+	<ul>
 			<li>TheatreDowntown.net</li>
 			<li>2113N Orange Ave. Orlando, FL 32804</li>
 			<li>407-841-0083</li>
 			<li>&copy; 2012</li>
 		</ul>
-		</footer>			
+  </footer>	</div>		
 </div>
 </body>
 </html>
