@@ -6,10 +6,7 @@
         
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
         
-        <link rel="stylesheet" href="nav.css">
-        <link href="css/lightbox.css" rel="stylesheet" />
-
-
+        
         
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         
@@ -17,28 +14,6 @@
         
         <script type="text/javascript" src="//use.typekit.net/pkt6nsc.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script>
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-	</script>
-    <script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/lightbox.js"></script>
 	</head>
 <body>
 
@@ -71,7 +46,7 @@
 
 	<div id="cta">		
 	
-		<h1> Theatre Downtown continues an ongoing tradition of theatrical excellence well in to its 23rd year!</h1>
+		<img src="images/cta_image2.png" alt="Welcome to the Theatre Downtown Orlando">
 	</div>
 
 	
@@ -124,17 +99,12 @@
 		<div id="gallery">
 			<h2>Publicity Gallery</h2>
 				<ul>
-					<li><a href="images/drama.jpg"rel="lightbox" ><img src="images/images/drama_thumb.jpg" alt="Take me as I am February 2009"></a></li>
-					
-                    <li><a href="images/solo.jpg" rel="lightbox" ><img src="images/images/actor_thumb.jpg" alt="I stand alone October 2011"></a></li>
-					
-                    <li><a href="images/tiger.jpg" rel="lightbox" ><img src="images/images/tiger_thumb.jpg" alt="The New Lion King March 2011"></a></li>
-					
-                    <li><a href="images/clowns.jpg" rel="lightbox" ><img src="images/images/clown_thumb.jpg" alt="Clowns on Broadway Spring 2010"></a></li>
-					
-                    <li><a href="images/musical.jpg" rel="lightbox" ><img src="images/images/musical_thumb.jpg" alt="Christmas Musical"></a></li>
-                    
-					<li><a href="images/fidler.jpg" rel="lightbox" ><img src="images/images/fidler_thumb.jpg" alt="Fidler On the Roof  November 2011"></a></li>
+					<li><a href="images/drama.jpg"><img src="images/images/drama_thumb.jpg" alt="Take me as I am February 2009"></a></li>
+					<li><a href="images/solo.jpg"><img src="images/images/actor_thumb.jpg" alt="I stand alone October 2011"></a></li>
+					<li><a href="images/tiger.jpg"><img src="images/images/tiger_thumb.jpg" alt="The New Lion King March 2011"></a></li>
+					<li><a href="images/clowns.jpg"><img src="images/images/clown_thumb.jpg" alt="Clowns on Broadway Spring 2010"></a></li>
+					<li><a href="images/musical.jpg"><img src="images/images/musical_thumb.jpg" alt="Christmas Musical"></a></li>
+					<li><a href="images/fidler.jpg"><img src="images/images/fidler_thumb.jpg" alt="Fidler On the Roof  November 2011"></a></li>
 				</ul>
 			
 		</div>
