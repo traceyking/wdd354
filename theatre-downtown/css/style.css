@@ -83,7 +83,7 @@ nav {
     height: 30px;  
     width: 100%;  
     background: #B9CF6A;  
-    font-size: 0.688em;  
+    font-size: 1em;  
     font-family: 'PT Sans', Arial, sans-serif;  
     font-weight: bold;  
     position: relative;  
@@ -453,34 +453,23 @@ cursor: pointer;
 
 }
 
- #hours{
-	width: 200px; /*233px/920px*/
+ #hours, #times{
+	width: 21.739%; /* 200px*/
 	height: 7.5em; /*120px*/
 	background-color: #32546b;
 	border: 3px #fff solid;
 	border-radius: 5px;
 	float: left;
 	padding: 15px;
-	margin-top: 2.083333;
-20px/960px*/
+	margin-top: 15px;
 	line-height: 2;	
-	margin-right: 20px;
-	margin-bottom: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
 	}
-#times{
-	width: 200px;
-	height: 7.5em; /*120px*/
-	background-color: #32546B;
-	border: 3px #fff solid;
-	border-radius: 5px;
-	float: left;
-	padding: 15px;
-	margin: 2.083333; /*20px/960px*/
-	line-height: 2;
-}
+
 	
 #prices table{
-	width: 300px;
+	width: 220px;
 	height: 150px;
 	font-family: "Trebuchet MS", sans-serif;
 	font-size: 1em;
@@ -488,10 +477,12 @@ cursor: pointer;
 	line-height: 1.4em;
 	font-style: normal;
 	border-collapse: collapse;
-	border:5px #fff solid;
+	border:3px #fff solid;
 	border-radius:5px;
 	float:right;
-	margin:auto;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 15px;
 }
 	
 #prices th, h2 {
@@ -529,7 +520,7 @@ cursor: pointer;
 	
 
 
-#tickets tr{ 
+#prices tr{ 
 	padding:10px;
     text-align:center;
     background-color:#DEF3CA;
@@ -554,11 +545,10 @@ cursor: pointer;
 
 
 #seating{
-	width:920px;
-	clear:both;
-	margin:0 auto;
-	background-color:#9CBC2C;
-	
+	width: 920px;
+	clear: both;
+	margin: 0 auto;
+	background-color: #26315A;	
 }
 
 #seating img{
@@ -567,6 +557,9 @@ cursor: pointer;
 	
 	
 	}
+
+#cta h1{
+	float:right;}
 
 /*contribute styles start here-------------------*/
 
